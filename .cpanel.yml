@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=//home2/stephe13/repositories/Stephenwebsite
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R index.html $DEPLOYPATH
